@@ -1,0 +1,6 @@
+﻿@using Sc.Mvc.Bootstrap.Helpers
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div class="@Model.Rendering.Parameters.GetClassNames("Size", "col-md-12") @Model.Rendering.Parameters.GetClassNames("Push") @Model.Rendering.Parameters.GetClassNames("Pull")">
+    @Html.Sitecore().DynamicPlaceholder("column")
+</div>  
