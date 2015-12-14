@@ -128,7 +128,6 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="Views\Shared\_BootstrapLayout.cshtml" />
-    <Content Include="Views\Bootstrap\Wrapper.cshtml" />
     <Content Include="Views\Bootstrap\Column.cshtml" />
     <Content Include="Views\Bootstrap\Row.cshtml" />
     <Content Include="Views\Bootstrap\Container.cshtml" />
